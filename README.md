@@ -58,4 +58,4 @@ Thus, the SRAM circuits finally occupy 128 KB, and the EPROM 256KB. One memory a
 It has a matrix structure, where the keys are found at the intersection of lines and columns. This will work in the following way: the columns are swept with 0, the first time the first column is set to 0, after the second and so on. If a column is on 0, then pressing any button in that column will cause the diode in the schematic to conduct, so at the input of the 74LS244 buffer there will be about 0.6V (voltage drop across the diode) or logic 0, so it can tell which button was pressed. For example, I set column 1 to 0 and press button 4, then the row corresponding to button 4 will be set to 0.
 
 - Address for setting the mini-keyboard columns: 28D0H;
-- Address for retrieving line status: 29D0H;
+- Address for retrieving line status: 29D0H.
