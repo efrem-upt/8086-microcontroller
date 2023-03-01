@@ -1,10 +1,10 @@
-# 8086-microcontroller
+# 8086-proteus
 
 <p align="center">
   <img src="img/8086_microcontroller.png" width = "200" height = "200">
 </p>
 
-A simple microcontroller based on the 8086 microprocessor with small applications in Proteus
+A simple application based on the 8086 microprocessor in Proteus
 
 ## Configuration
 
